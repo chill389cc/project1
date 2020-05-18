@@ -33,3 +33,4 @@ http://127.0.0.1:5000/
 MAYBE:
 https://data.heroku.com/datastores/63e63e96-9763-44a9-a321-5387e24a4b28#administration
 
+I used this page to make github cache my password: https://www.phys.uconn.edu/~rozman/Courses/P2200_15F/downloads/github-caching_password_in_git.pdf
