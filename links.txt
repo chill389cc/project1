@@ -1,0 +1,35 @@
+--INDIVIDUAL COMMANDS--
+cd ./project1
+export DATABASE_URL=postgres://pnzigjlipiyjnh:7773cbadf9b8ce00ef20c17db62ff57532c0e7019c966257da6ebc2086c6c685@ec2-35-171-31-33.compute-1.amazonaws.com:5432/d5u757sh8sl207
+export FLASK_APP=application.py
+--COMBINED COMMANDS (triple click, paste & go!)--
+	--set it up and start flask
+cd ~/project1 && export DATABASE_URL=postgres://pnzigjlipiyjnh:7773cbadf9b8ce00ef20c17db62ff57532c0e7019c966257da6ebc2086c6c685@ec2-35-171-31-33.compute-1.amazonaws.com:5432/d5u757sh8sl207 && export FLASK_APP=application.py && export FLASK_DEBUG=1 && flask run
+	--just set it up
+cd ~/project1 && export DATABASE_URL=postgres://pnzigjlipiyjnh:7773cbadf9b8ce00ef20c17db62ff57532c0e7019c966257da6ebc2086c6c685@ec2-35-171-31-33.compute-1.amazonaws.com:5432/d5u757sh8sl207 && export FLASK_APP=application.py && export FLASK_DEBUG=1
+
+--GIT REMINDERS--    more help: https://www.geeksforgeeks.org/how-to-install-configure-and-use-git-on-ubuntu/
+when creating a new doc: 1) Clone the repo
+When editing files:
+1)Add all edited files: git add filename.ext
+2)Commit with message: git commit -m "message goes here"
+3)git push origin master
+
+--PAGES I NEED TO OPEN--
+	YES:	
+https://adminer.cs50.net/
+	server: 
+ec2-35-171-31-33.compute-1.amazonaws.com
+	username: 
+pnzigjlipiyjnh
+	password: 
+7773cbadf9b8ce00ef20c17db62ff57532c0e7019c966257da6ebc2086c6c685
+	database: 
+d5u757sh8sl207
+
+
+https://docs.cs50.net/web/2020/x/projects/1/project1.html
+http://127.0.0.1:5000/
+MAYBE:
+https://data.heroku.com/datastores/63e63e96-9763-44a9-a321-5387e24a4b28#administration
+
